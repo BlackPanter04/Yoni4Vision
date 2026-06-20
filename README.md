@@ -43,6 +43,8 @@ Abrir VS Code:
 Instalar extensión Python.
 Seleccionar kernel supervision.
 
+---
+
 ## Requisitos adicionales
 bash
 pip install transformers accelerate safetensors datasets opencv-python seaborn matplotlib
