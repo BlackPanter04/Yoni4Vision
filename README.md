@@ -43,12 +43,12 @@ Abrir VS Code:
 Instalar extensión Python.
 Seleccionar kernel supervision.
 
-📋 Requisitos adicionales
+## Requisitos adicionales
 bash
 pip install transformers accelerate safetensors datasets opencv-python seaborn matplotlib
 pip install -r requirements.txt
 
-## 📂 Archivos externos
+##  Archivos externos
 
 Por limitaciones de GitHub, los archivos pesados se encuentran en Google Drive:
 
@@ -56,7 +56,7 @@ Por limitaciones de GitHub, los archivos pesados se encuentran en Google Drive:
 - Dataset anotado → [Drive Link](https://drive.google.com/drive/folders/18I6zf9HGyLC_w6fJWnResbu0FBkmdveu?usp=drive_link)
 
 
-▶️ Flujo de Fases
+## Flujo de Fases
 🔹 Fase 1 – YOLO + ByteTrack
 Detección de objetos con YOLO.
 
@@ -81,7 +81,7 @@ Análisis de posesión con métricas temporales.
 Detección de eventos clave (pases, intercepciones, tiros, goles).
 
 
-📊 Resultados esperados
+##Resultados esperados
 posesion_por_frame.csv → métricas de posesión por frame.
 
 Resumen de goles → listado de goles detectados en consola o exportado a CSV.
@@ -94,7 +94,7 @@ Trayectoria del balón.
 
 Análisis de posesión.
 
-🎥 Videos
+##Videos
 Demo completo (1:30 min): fase3_demo.mp4
 
 Reel Instagram (30 seg): https://www.instagram.com/reel/DZyyykitWbV/?igsh=MTdtaWpndG9kZTZhbQ==
@@ -113,15 +113,14 @@ ESCALA_PX_CM → Escala de conversión de centímetros a píxeles.
 umbral → Tolerancia en píxeles para detección de goles.
 
 min_gap → Frames mínimos entre goles para evitar duplicados.
-
-📌 Notas
+## Notas
 El sistema depende de la calidad del archivo detecciones_yolo.csv.
 
 Las coordenadas de las porterías (goal_sup, goal_inf) deben ajustarse según el campo y la calibración inicial.
 
 Se recomienda usar YOLOv8 para generar las detecciones.
 
-📜 Licencia y Créditos
+##Licencia y Créditos
 Proyecto bajo licencia MIT.
 
 Dependencias: YOLO (Ultralytics), SAM3 (Meta), ByteTrack, Supervision, OpenCV, Seaborn, Matplotlib.
