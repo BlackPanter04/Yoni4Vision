@@ -23,7 +23,7 @@ Repositorio oficial: **[Yoni4Vision en GitHub](https://github.com/BlackPanter04/
 conda create -n supervision python=3.11
 conda activate supervision
 Instalar librerías:
-
+---
 CPU:
 
 bash
